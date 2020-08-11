@@ -1,5 +1,3 @@
-import 'nav-frontend-tabell-style'
-
 import dayjs from 'dayjs'
 import React from 'react'
 
