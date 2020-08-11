@@ -4,6 +4,7 @@ import KlageTekster from '../components/klage/klage-tekster'
 import OppsummeringTekster from '../components/oppsummering/oppsummering-tekster'
 import OpplysningerTekster from '../components/sykmelding-opplysninger/opplysninger-tekster'
 import TeaserTekster from '../components/teaser/teaser-tekster'
+import UtbetalingsoversiktTekster from '../components/utebetalingsoversikt/utbetalingsoversikt-tekster'
 import UtbetalingTekster from '../components/utbetalinger/utbetaling-tekster'
 import VedtakStatusTekster from '../components/vedtak-status/vedtak-status-tekster'
 import SoknaderTekster from '../pages/soknader/soknader-tekster'
@@ -17,6 +18,7 @@ const tekster = {
     ...VedtakTekster.nb,
     ...KlageTekster.nb,
     ...VedtakStatusTekster.nb,
+    ...UtbetalingsoversiktTekster.nb,
     ...UtbetalingTekster.nb,
     ...OpplysningerTekster.nb,
     ...OppsummeringTekster.nb,
