@@ -28,7 +28,7 @@ const SykmeldingPerioder = ({ sykmelding }: OpplysningerProps) => {
         return null
     }
 
-    const eldsteFoerst = sorterPerioderEldsteFoerst(sykmelding.mulighetForArbeid.perioder);
+    const eldsteFoerst = sorterPerioderEldsteFoerst(sykmelding.mulighetForArbeid.perioder)
 
     return (
         <div className="sykmelding-perioder">

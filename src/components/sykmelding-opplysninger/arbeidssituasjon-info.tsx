@@ -7,7 +7,7 @@ import { OpplysningerProps } from './sykmelding-opplysninger'
 const ArbeidssituasjonInfo = ({ sykmelding }: OpplysningerProps) => {
 
     if (sykmelding?.valgtArbeidssituasjon) {
-        const situasjon = sykmelding.valgtArbeidssituasjon.toLowerCase();
+        const situasjon = sykmelding.valgtArbeidssituasjon.toLowerCase()
 
         return (
             <div className="avsnitt">
